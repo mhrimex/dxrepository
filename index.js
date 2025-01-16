@@ -15,4 +15,11 @@ $(function() {
       showBorders: true
     });
   });
+  $(document).ready(function () {
+    $('#gridContainer').dxDataGrid({
+      dataSource: 'data.json',
+      columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax'],
+      showBorders: true,
+    });
+  });
   
